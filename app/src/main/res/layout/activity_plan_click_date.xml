@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/plan_detailPge_top"
+        layout="@layout/top_bar"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/plan_detailPge_vertical_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05"/>
+
+    <EditText
+        android:id="@+id/plan_editPge_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="计划标题"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/plan_detailPge_vertical_guideline"
+        app:layout_constraintTop_toBottomOf="@+id/plan_detailPge_top" />
+
+    <EditText
+        android:id="@+id/plan_editPge_content"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="计划内容"
+        app:layout_constraintStart_toStartOf="@id/plan_editPge_title"
+        app:layout_constraintTop_toBottomOf="@+id/plan_editPge_title"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <EditText
+        android:id="@+id/plan_editPge_date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="日期"
+        app:layout_constraintStart_toStartOf="@id/plan_editPge_title"
+        app:layout_constraintTop_toBottomOf="@+id/plan_editPge_content"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <EditText
+        android:id="@+id/plan_editPge_timeRange"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="时间范围"
+        app:layout_constraintStart_toStartOf="@id/plan_editPge_title"
+        app:layout_constraintTop_toBottomOf="@+id/plan_editPge_date"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+   <CheckBox
+       android:id="@+id/plan_editPge_checkBox"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="固定耗时"
+       app:layout_constraintStart_toStartOf="@id/plan_editPge_title"
+       app:layout_constraintTop_toBottomOf="@+id/plan_editPge_timeRange"/>
+
+</android.support.constraint.ConstraintLayout>

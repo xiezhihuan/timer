@@ -1,0 +1,67 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.example.administrator.app"
+        minSdkVersion 23
+        targetSdkVersion 28
+        versionCode 1
+        versionName "2.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+    }
+
+    sourceSets { main { res.srcDirs = ['src/main/res', 'src/main/res/course'] } }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    //    implementation 'com.android.support:appcompat-v7:25.3.1'
+    implementation 'com.android.support:appcompat-v7:28.0.0-rc02'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    //butterknife
+    api 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor "com.jakewharton:butterknife-compiler:8.8.1"
+    //asynchttpclient
+    implementation files('libs/android-async-http-1.4.9.jar')
+    //httpclient
+    implementation files('libs/httpclient-4.3.6.jar')
+    //htmlunit
+    implementation project(':ncalendar')
+    //recyclerview
+    //    implementation 'com.android.support:recyclerview-v7:25.3.1'
+    implementation 'com.android.support:recyclerview-v7:28.0.0-rc02'
+
+    implementation project(':circleprogress')
+    //fastjson
+    implementation files('libs/fastjson-1.2.4.jar')
+    //LitePal 数据库
+    implementation 'org.litepal.android:core:2.0.0'
+    //时间选择器
+    implementation 'com.github.codbking:PickTime:v1.0.1'
+    //弹窗
+    implementation project(':my_dialog')
+    implementation files('libs/jsoup-1.11.3.jar')
+    implementation files('libs/okhttp-3.2.0.jar')
+    //下拉刷新
+    implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.5.1'
+    implementation 'com.scwang.smartrefresh:SmartRefreshHeader:1.0.5.1'
+
+}

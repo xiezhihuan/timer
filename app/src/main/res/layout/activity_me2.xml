@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:background="@drawable/me_bg" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:text="设置"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="115dp"
+            android:src="@drawable/my_user_default" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="147dp"
+            android:background="@drawable/text_frame"
+            android:gravity="center"
+            android:text="个人资料"
+            android:textColor="@color/lightBlue" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="路是走出来的" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/icon_me_dengji"
+            android:gravity="center"
+            android:text="Lv3 小励志" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_marginTop="14dp"
+        android:background="@color/LightGray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="小泰应用"
+            android:textColor="@color/block"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="更多"
+                android:textColor="@color/LightGray"
+                android:textSize="13sp" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="17dp"
+                android:background="@drawable/icon_jiangtou_rignt" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/LightGray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/huangli" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="小泰黄历" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/renpin" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="小泰算人品" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_marginTop="85dp"
+        android:background="@color/LightGray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="关于我们"
+                android:textColor="@color/block"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="         小黑工作室（简称：黑室），成立于2018年7月19日，是一支勇于挑战、超越自我的团队。团队的理念是：不要拘泥于眼前的苟且，请站在巨人的肩膀上，眺望远方。我们因比赛而缘起，因梦想而坚持，敢想敢做不敢平庸，我们是小黑，在黑夜里起行，争做看第一缕阳光的人。"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/LightGray" />
+</LinearLayout>

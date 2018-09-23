@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="planlist_item_vertical_guideline" type="id"/>
+    
+    <item name="planlist_item1_guideline" type="id"/>
+    <item name="planlist_item1_title" type="id"/>
+    <item name="planlist_item1_content" type="id"/>
+    <item name="planlist_item1_button" type="id"/>
+
+    <item name="planlist_item2_guideline" type="id"/>
+    <item name="planlist_item2_title" type="id"/>
+    <item name="planlist_item2_content" type="id"/>
+    <item name="planlist_item2_button" type="id"/>
+
+    <item name="planlist_item3_guideline" type="id"/>
+    <item name="planlist_item3_title" type="id"/>
+    <item name="planlist_item3_content" type="id"/>
+    <item name="planlist_item3_button" type="id"/>
+
+    <item name="planlist_item4_guideline" type="id"/>
+    <item name="planlist_item4_title" type="id"/>
+    <item name="planlist_item4_content" type="id"/>
+    <item name="planlist_item4_button" type="id"/>
+
+    <item name="planlist_item5_guideline" type="id"/>
+    <item name="planlist_item5_title" type="id"/>
+    <item name="planlist_item5_content" type="id"/>
+    <item name="planlist_item5_button" type="id"/>
+
+    <item name="planlist_item6_guideline" type="id"/>
+    <item name="planlist_item6_title" type="id"/>
+    <item name="planlist_item6_content" type="id"/>
+    <item name="planlist_item6_button" type="id"/>
+
+    <item name="planlist_item7_guideline" type="id"/>
+    <item name="planlist_item7_title" type="id"/>
+    <item name="planlist_item7_content" type="id"/>
+    <item name="planlist_item7_button" type="id"/>
+
+    <item name="planlist_item8_guideline" type="id"/>
+    <item name="planlist_item8_title" type="id"/>
+    <item name="planlist_item8_content" type="id"/>
+    <item name="planlist_item8_button" type="id"/>
+
+    <item name="planlist_item9_guideline" type="id"/>
+    <item name="planlist_item9_title" type="id"/>
+    <item name="planlist_item9_content" type="id"/>
+    <item name="planlist_item9_button" type="id"/>
+
+    <item name="planlist_item10_guideline" type="id"/>
+    <item name="planlist_item10_title" type="id"/>
+    <item name="planlist_item10_content" type="id"/>
+    <item name="planlist_item10_button" type="id"/>
+
+    <item name="planlist_item11_guideline" type="id"/>
+    <item name="planlist_item11_title" type="id"/>
+    <item name="planlist_item11_content" type="id"/>
+    <item name="planlist_item11_button" type="id"/>
+
+    <item name="planlist_item12_guideline" type="id"/>
+    <item name="planlist_item12_title" type="id"/>
+    <item name="planlist_item12_content" type="id"/>
+    <item name="planlist_item12_button" type="id"/>
+
+    <item name="planlist_item13_guideline" type="id"/>
+    <item name="planlist_item13_title" type="id"/>
+    <item name="planlist_item13_content" type="id"/>
+    <item name="planlist_item13_button" type="id"/>
+
+    <item name="planlist_item14_guideline" type="id"/>
+    <item name="planlist_item14_title" type="id"/>
+    <item name="planlist_item14_content" type="id"/>
+    <item name="planlist_item14_button" type="id"/>
+
+    <item name="planlist_item15_guideline" type="id"/>
+    <item name="planlist_item15_title" type="id"/>
+    <item name="planlist_item15_content" type="id"/>
+    <item name="planlist_item15_button" type="id"/>
+
+    <item name="planlist_item16_guideline" type="id"/>
+    <item name="planlist_item16_title" type="id"/>
+    <item name="planlist_item16_content" type="id"/>
+    <item name="planlist_item16_button" type="id"/>
+
+    <item name="planlist_item17_guideline" type="id"/>
+    <item name="planlist_item17_title" type="id"/>
+    <item name="planlist_item17_content" type="id"/>
+    <item name="planlist_item17_button" type="id"/>
+
+    <item name="planlist_item18_guideline" type="id"/>
+    <item name="planlist_item18_title" type="id"/>
+    <item name="planlist_item18_content" type="id"/>
+    <item name="planlist_item18_button" type="id"/>
+
+    <item name="planlist_item19_guideline" type="id"/>
+    <item name="planlist_item19_title" type="id"/>
+    <item name="planlist_item19_content" type="id"/>
+    <item name="planlist_item19_button" type="id"/>
+
+    <item name="planlist_item20_guideline" type="id"/>
+    <item name="planlist_item20_title" type="id"/>
+    <item name="planlist_item20_content" type="id"/>
+    <item name="planlist_item20_button" type="id"/>
+
+    <item name="planlist_item21_guideline" type="id"/>
+    <item name="planlist_item21_title" type="id"/>
+    <item name="planlist_item21_content" type="id"/>
+    <item name="planlist_item21_button" type="id"/>
+
+    <item name="planlist_item22_guideline" type="id"/>
+    <item name="planlist_item22_title" type="id"/>
+    <item name="planlist_item22_content" type="id"/>
+    <item name="planlist_item22_button" type="id"/>
+
+    <item name="planlist_item23_guideline" type="id"/>
+    <item name="planlist_item23_title" type="id"/>
+    <item name="planlist_item23_content" type="id"/>
+    <item name="planlist_item23_button" type="id"/>
+
+    <item name="planlist_item24_guideline" type="id"/>
+    <item name="planlist_item24_title" type="id"/>
+    <item name="planlist_item24_content" type="id"/>
+    <item name="planlist_item24_button" type="id"/>
+
+    <item name="planlist_item25_guideline" type="id"/>
+    <item name="planlist_item25_title" type="id"/>
+    <item name="planlist_item25_content" type="id"/>
+    <item name="planlist_item25_button" type="id"/>
+
+    <item name="planlist_item26_guideline" type="id"/>
+    <item name="planlist_item26_title" type="id"/>
+    <item name="planlist_item26_content" type="id"/>
+    <item name="planlist_item26_button" type="id"/>
+
+    <item name="planlist_item27_guideline" type="id"/>
+    <item name="planlist_item27_title" type="id"/>
+    <item name="planlist_item27_content" type="id"/>
+    <item name="planlist_item27_button" type="id"/>
+
+    <item name="planlist_item28_guideline" type="id"/>
+    <item name="planlist_item28_title" type="id"/>
+    <item name="planlist_item28_content" type="id"/>
+    <item name="planlist_item28_button" type="id"/>
+
+    <item name="planlist_item29_guideline" type="id"/>
+    <item name="planlist_item29_title" type="id"/>
+    <item name="planlist_item29_content" type="id"/>
+    <item name="planlist_item29_button" type="id"/>
+
+    <item name="planlist_item30_guideline" type="id"/>
+    <item name="planlist_item30_title" type="id"/>
+    <item name="planlist_item30_content" type="id"/>
+    <item name="planlist_item30_button" type="id"/>
+
+    <item name="planlist_item31_guideline" type="id"/>
+    <item name="planlist_item31_title" type="id"/>
+    <item name="planlist_item31_content" type="id"/>
+    <item name="planlist_item31_button" type="id"/>
+
+    <item name="planlist_item32_guideline" type="id"/>
+    <item name="planlist_item32_title" type="id"/>
+    <item name="planlist_item32_content" type="id"/>
+    <item name="planlist_item32_button" type="id"/>
+
+    <item name="planlist_item33_guideline" type="id"/>
+    <item name="planlist_item33_title" type="id"/>
+    <item name="planlist_item33_content" type="id"/>
+    <item name="planlist_item33_button" type="id"/>
+
+    <item name="planlist_item34_guideline" type="id"/>
+    <item name="planlist_item34_title" type="id"/>
+    <item name="planlist_item34_content" type="id"/>
+    <item name="planlist_item34_button" type="id"/>
+
+    <item name="planlist_item35_guideline" type="id"/>
+    <item name="planlist_item35_title" type="id"/>
+    <item name="planlist_item35_content" type="id"/>
+    <item name="planlist_item35_button" type="id"/>
+
+    <item name="planlist_item36_guideline" type="id"/>
+    <item name="planlist_item36_title" type="id"/>
+    <item name="planlist_item36_content" type="id"/>
+    <item name="planlist_item36_button" type="id"/>
+
+    <item name="planlist_item37_guideline" type="id"/>
+    <item name="planlist_item37_title" type="id"/>
+    <item name="planlist_item37_content" type="id"/>
+    <item name="planlist_item37_button" type="id"/>
+
+    <item name="planlist_item38_guideline" type="id"/>
+    <item name="planlist_item38_title" type="id"/>
+    <item name="planlist_item38_content" type="id"/>
+    <item name="planlist_item38_button" type="id"/>
+
+    <item name="planlist_item39_guideline" type="id"/>
+    <item name="planlist_item39_title" type="id"/>
+    <item name="planlist_item39_content" type="id"/>
+    <item name="planlist_item39_button" type="id"/>
+
+    <item name="planlist_item40_guideline" type="id"/>
+    <item name="planlist_item40_title" type="id"/>
+    <item name="planlist_item40_content" type="id"/>
+    <item name="planlist_item40_button" type="id"/>
+
+    <item name="planlist_item41_guideline" type="id"/>
+    <item name="planlist_item41_title" type="id"/>
+    <item name="planlist_item41_content" type="id"/>
+    <item name="planlist_item41_button" type="id"/>
+
+</resources>

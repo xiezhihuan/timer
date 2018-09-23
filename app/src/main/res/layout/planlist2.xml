@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline_or"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline_ver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/refreshView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+    <TextView
+        android:id="@+id/top_background"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="@color/themeCorol" />
+
+    <TextView
+        android:id="@+id/tv_month"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9月"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@id/guideline_left"
+        app:layout_constraintTop_toBottomOf="@+id/guideline_or" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="5dp"
+        android:text="2017年"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="@id/tv_month"
+        app:layout_constraintStart_toEndOf="@id/tv_month" />
+
+    <TextView
+        android:id="@+id/bt_jilu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="历史记录"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_month"
+        app:layout_constraintEnd_toStartOf="@id/guideline_ver" />
+
+    <TextView
+        android:id="@+id/text_running"
+        style="@style/planlist_bar_text"
+        android:layout_marginStart="20dp"
+        android:gravity="bottom"
+        android:text="进行中"
+        app:layout_constraintBottom_toBottomOf="@+id/top_background"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/running_number"
+        style="@style/planlist_bar_text"
+        android:layout_marginStart="2dp"
+        android:text="(4)"
+        app:layout_constraintBottom_toBottomOf="@id/top_background"
+        app:layout_constraintStart_toEndOf="@id/text_running" />
+
+    <LinearLayout
+        android:id="@+id/running_jiantou"
+        style="@style/enStart_jiantou_contain"
+        app:layout_constraintBottom_toBottomOf="@+id/top_background"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:id="@+id/running_jiantou2"
+            style="@style/enStart_jiantou" />
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/view_running"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/top_background" />
+
+    <TextView
+        android:id="@+id/enStart_background"
+        style="@style/planlist_bar_background"
+        app:layout_constraintTop_toBottomOf="@id/view_running" />
+
+    <TextView
+        android:id="@+id/text_enStart"
+        style="@style/planlist_bar_text"
+        android:layout_marginStart="20dp"
+        android:gravity="bottom"
+        android:text="未开始"
+        app:layout_constraintBottom_toBottomOf="@+id/enStart_background"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/enStart_number"
+        style="@style/planlist_bar_text"
+        android:layout_marginStart="2dp"
+        android:text="(4)"
+        app:layout_constraintBottom_toBottomOf="@id/enStart_background"
+        app:layout_constraintStart_toEndOf="@id/text_enStart"
+
+        />
+
+    <LinearLayout
+        android:id="@+id/enStart_jiantou"
+        style="@style/enStart_jiantou_contain"
+        app:layout_constraintBottom_toBottomOf="@+id/enStart_background"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        >
+
+        <TextView
+            android:id="@+id/enStart_jiantou2"
+            style="@style/enStart_jiantou" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/enStart_background">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/view_enStart"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:background="@color/white" />
+
+                <TextView
+                    android:id="@+id/finish_background"
+                    style="@style/planlist_bar_background"
+                    app:layout_constraintTop_toBottomOf="@+id/view_enStart" />
+
+                <TextView
+                    android:id="@+id/text_finish"
+                    style="@style/planlist_bar_text"
+                    android:layout_marginStart="20dp"
+                    android:gravity="bottom"
+                    android:text="已完成"
+                    app:layout_constraintBottom_toBottomOf="@+id/finish_background"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/finish_number"
+                    style="@style/planlist_bar_text"
+                    android:layout_marginStart="2dp"
+                    android:text="(4)"
+                    app:layout_constraintBottom_toBottomOf="@id/finish_background"
+                    app:layout_constraintStart_toEndOf="@id/text_finish" />
+
+                <LinearLayout
+                    android:id="@+id/finish_jiantou"
+                    style="@style/enStart_jiantou_contain"
+                    app:layout_constraintBottom_toBottomOf="@+id/finish_background"
+                    app:layout_constraintEnd_toEndOf="parent">
+
+                    <TextView
+                        android:id="@+id/finish_jiantou2"
+                        style="@style/enStart_jiantou" />
+                </LinearLayout>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/view_finish"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    app:layout_constraintTop_toBottomOf="@+id/finish_background" />
+
+            </android.support.constraint.ConstraintLayout>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lbstudio.timer.app">
+    <!-- 网络 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <!--读-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <!--<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>-->
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/app_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivityy">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".app.browser.activity.WebViewActivity"/>
+        <activity android:name=".app.activity.ForgetActivity"/>
+        <activity android:name=".app.activity.RegisterActivity"/>
+        <activity android:name=".app.activity.LoginAcitvity"/>
+        <activity android:name=".app.calendar.CalendarActivity"/>
+        <activity android:name=".progress.ProgressActivity"/>
+        <activity android:name=".app.TimerActivity"/>
+        <activity android:name=".app.activity.CourseDetail_Activity"/>
+        <activity android:name=".app.activity.Course_creat_Activity"/>
+        <activity android:name=".app.activity.EnBuild_Activity" />
+        <activity android:name=".Test" />
+        <activity android:name=".Test2"/>
+        <activity android:name=".app.activity.PlanDetail_Activity"/>
+        <activity android:name=".app.activity.Plan_creat_Activity"/>
+    </application>
+
+</manifest>

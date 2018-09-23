@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Timer</string>
+    <string name="enStart">未开始</string>
+
+    <string name="lesson1">1</string>
+    <string name="lesson2">2</string>
+    <string name="lesson3">3</string>
+    <string name="lesson4">4</string>
+    <string name="lesson5">5</string>
+    <string name="lesson6">6</string>
+    <string name="lesson7">7</string>
+    <string name="lesson8">8</string>
+    <string name="lesson9">9</string>
+    <string name="lesson10">10</string>
+    <string name="lesson11">11</string>
+    <string name="lesson12">12</string>
+
+    <string name="timeNum1">1</string>
+    <string name="time1">06:00</string>
+    <string name="time2">07:00</string>
+    <string name="time3">08:00</string>
+    <string name="time4">09:00</string>
+    <string name="time5">10:00</string>
+    <string name="time6">11:00</string>
+    <string name="time7">12:00</string>
+    <string name="time8">13:00</string>
+    <string name="time9">14:00</string>
+    <string name="time10">15:00</string>
+    <string name="time11">16:00</string>
+    <string name="time12">17:00</string>
+    <string name="time13">18:00</string>
+    <string name="time14">19:00</string>
+    <string name="time15">20:00</string>
+    <string name="time16">21:00</string>
+    <string name="time17">22:00</string>
+    <string name="time18">23:00</string>
+    <string name="time19">24:00</string>
+    <string name="time20">01:00</string>
+
+    <!--课程详细页的String-->
+    <string name="courseName">课名</string>
+    <string name="courseName_txt">请输入课程名称</string>
+    <string name="courseSite">地点</string>
+    <string name="courseSite_txt">请输入上课地点</string>
+    <string name="weekCount">周数</string>
+    <string name="weekCount_txt">请选择上课周</string>
+    <string name="lessonCount">节数</string>
+    <string name="lessonCount_txt">请选择第几节上课</string>
+    <string name="courseTeacher">老师</string>
+    <string name="courseTeacher_txt">请输入任课老师</string>
+    <string name="beizhu">备注</string>
+    <string name="beizhu_txt">在这里添加课程备注...</string>
+
+    <!--Toast文字-->
+    <string name="addPlan_fail_inServer">数据上传失败，请检查您的网络</string>
+    <string name="not_network">网络异常，请检查您的网络</string>
+    <string name="email_or_pwd_err">账号或密码错误</string>
+    <string name="unknownErr">检测到未知错误</string>
+    <string name="success_register">注册成功</string>
+    <string name="success_resetPassword">密码重置成功</string>
+    <string name="err_un_input_email">请输入邮箱</string>
+    <string name="success_getREcode">验证码已发送，请注意查收</string>
+    <string name="haveRegistered">该邮箱已注册</string>
+    <string name="buu">连接buu，正常获取课表</string>
+    <string name="kb_success">读取课表成功</string>
+    <string name="erro_params">参数异常</string>
+    <string name="erro_request_tomore">请求过于频繁，请稍候再试</string>
+    <string name="erro_yzcode_tomore">验证码下发次数超过当天限制</string>
+    <string name="fail">请求失败，请检查您的输入</string>
+    <string name="eer_email_pwd">邮箱或密码错误</string>
+    <string name="shixiao_token">登录过期</string>
+    <string name="YZCodeErr">验证码错误</string>
+    <string name="err_password">两次密码不一致</string>
+    <string name="err_password_null">请输入密码</string>
+    <string name="err_YZCode_null">请输入验证码</string>
+    <string name="err_email_Or_Password_null">账号或密码不能为空</string>
+    <string name="err_planTile_null">计划名不能为空</string>
+    <string name="err_userid_null">用户id不能为空</string>
+    <string name="getting">"正在获取…"</string>
+    <string name="timeNum2">2</string>
+    <string name="tip">温馨提示</string>
+    <string name="xuanze">选择</string>
+    <string name="year">年</string>
+    <string name="day">月</string>
+    <string name="day_txt">日</string>
+    <string name="email">邮箱</string>
+    <string name="password">密码</string>
+    <string name="login">登录</string>
+    <string name="register">注册账号</string>
+    <string name="forgetPassword">忘记密码</string>
+    <string name="newCourse">新建计划</string>
+    <string name="newCourse2">新建课程</string>
+
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/planTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="标题" />
+
+    <EditText
+        android:id="@+id/planContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="详细" />
+
+    <EditText
+        android:id="@+id/planDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="日期" />
+
+
+    <EditText
+        android:id="@+id/planStartTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="开始时间，小时分钟" />
+
+    <EditText
+        android:id="@+id/planEndTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="结束时间，小时分钟" />
+
+    <EditText
+        android:id="@+id/num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="设置提醒 ， “发生时，5分钟前等”" />
+
+    <Button
+        android:id="@+id/bt_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="提交" />
+
+    <Button
+        android:id="@+id/bt_look"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查看" />
+
+    <Button
+        android:id="@+id/bt_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="删除" />
+
+
+</LinearLayout>

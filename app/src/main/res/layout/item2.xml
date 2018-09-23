@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:paddingTop="4dp"
+    android:orientation="horizontal">
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.85" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <TextView
+        android:id="@+id/tv_titlt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:text="标题"
+        app:layout_constraintEnd_toEndOf="@id/guideline_center"
+        app:layout_constraintStart_toStartOf="@id/guideline_start" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="详细"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="@id/tv_titlt"
+        app:layout_constraintStart_toStartOf="@id/tv_titlt"
+        app:layout_constraintTop_toBottomOf="@+id/tv_titlt" />
+
+    <TextView
+        android:id="@+id/bt_threePoint"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/icon_three_dot"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_content"
+        app:layout_constraintEnd_toEndOf="@id/guideline_end"
+        app:layout_constraintStart_toStartOf="@id/guideline_center"
+        app:layout_constraintTop_toTopOf="@+id/tv_titlt" />
+
+    <TextView
+        android:id="@+id/tv_planId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+</android.support.constraint.ConstraintLayout>

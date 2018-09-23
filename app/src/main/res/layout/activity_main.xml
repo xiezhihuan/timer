@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/addKB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="添加课表"/>
+        <Button
+            android:id="@+id/bt_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="登录页"/>
+
+        <Button
+            android:id="@+id/bt_KB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="课表入口"/>
+
+        <Button
+            android:id="@+id/bt_calendar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="日历入口"/>
+        <Button
+            android:id="@+id/bt_progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="进度的圆环入口"/>
+
+        <Button
+            android:id="@+id/bt_app"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="APP入口"/>
+
+        <Button
+            android:id="@+id/bt_fastjson"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="测试fastjson"/>
+
+        <Button
+            android:id="@+id/bt_LitePal_find"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="清空计划数据库"/>
+
+        <Button
+            android:id="@+id/bt_test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="选择图片"/>
+
+        <Button
+            android:id="@+id/bt_query"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="查询数据库"/>
+
+        <Button
+            android:id="@+id/bt_LitePal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="模拟数据"/>
+
+        <Button
+            android:id="@+id/bt_test2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="获得屏幕宽高"/>
+
+        <Button
+            android:id="@+id/bt_test3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="自定义弹窗"/>
+
+        <Button
+            android:id="@+id/bt_test4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="模拟课表数据"/>
+
+        <Button
+            android:id="@+id/bt_test5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="查询课表数据"/>
+
+        <Button
+            android:id="@+id/bt_test6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="清空课表数据"/>
+
+
+        <Button
+            android:id="@+id/bt_test7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="自定义伸缩listview"/>
+
+        <Button
+            android:id="@+id/bt_test8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="expendListview"/>
+
+        <Button
+            android:id="@+id/bt_test9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="退出登录"/>
+
+        <Button
+            android:id="@+id/bt_test10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="下拉刷新页"/>
+
+        <Button
+        android:id="@+id/bt_test11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="下拉刷新页"/>
+
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>
